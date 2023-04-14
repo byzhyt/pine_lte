@@ -1,5 +1,5 @@
 export declare const dataEmpty: (item: any) => any;
-export declare const depend: any;
+export declare let depend: any;
 export declare const getName: (item: any) => any;
 export declare const isNull: (data: any, item: any) => any;
 export declare const fillNumber: (n: number | string) => string | number;

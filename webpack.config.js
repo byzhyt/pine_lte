@@ -8,7 +8,7 @@ module.exports = () => {
         {
           test: /\.tsx?$/,
           use: 'ts-loader',
-          exclude: /src/
+          exclude: /node_modules/
         }
       ]
     },

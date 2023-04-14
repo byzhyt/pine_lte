@@ -11,7 +11,7 @@ export const dataEmpty = (item: any) => {
   return emptyJson[item.dataType || 's'];
 };
 
-export const depend: any = {
+export let depend: any = {
   router: (data) => data,
   message: (data) => data,
   loading: (data) => data,
